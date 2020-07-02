@@ -32,5 +32,5 @@ jobs:
     - name: Installing surge
       run:  npm install --global surge 
     - name:  deploying using surge
-      run:  surge ./ sadiaaslam.assignment1.aicbatch35.surge.sh/ --token $ {{ secrets.SURGE_TOKEN }}
+      run:  surge ./ sadiaaslam.assignment1.aicbatch35.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
      
